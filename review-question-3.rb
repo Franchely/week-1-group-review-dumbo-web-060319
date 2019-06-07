@@ -1,5 +1,11 @@
+require_relative "./models/comment.rb"
+require_relative "./models/user.rb"
+require_relative "./models/photo.rb"
+require "pry"
+
 # begin to build a simple program that models Instagram
 # you should have a User class, a Photo class and a comment class
+
 
 
 sandwich_photo = Photo.new
@@ -20,3 +26,7 @@ sandwich_photo.comments
 
 Comment.all
 #=> [#<Comment:0x00007fae28043700>]
+
+binding.pry
+
+puts "done."
